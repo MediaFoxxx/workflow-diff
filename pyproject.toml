@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "workflow-diff"
+version = "0.1.0"
+description = ""
+authors = ["Maxim <bushuev4329@gmail.com>"]
+readme = "README.md"
+packages = [{include = "workflow_diff"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+PyYAML = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
